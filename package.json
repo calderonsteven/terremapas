@@ -1,0 +1,34 @@
+{
+  "name": "terrem",
+  "version": "1.0",
+  "scripts": {
+    "start-local": "webpack-dev-server --env.local --progress --hot --port 3006 --open",
+    "start": "webpack-dev-server --progress --hot --port 3006 --open",
+    "build": "webpack --env.prod=true  --output-filename=bundle.js"
+  },
+  "dependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "css-loader": "^0.28.0",
+    "d3-request": "^1.0.5",
+    "deck.gl": "^4.0.0-rc.3",
+    "immutable": "^3.8.1",
+    "json-loader": "^0.5.4",
+    "lodash": "^4.17.4",
+    "luma.gl": "^3.0.0",
+    "node-sass": "^4.5.2",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-map-gl": "^2.0.0",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-actions": "^2.0.1",
+    "redux-thunk": "^2.2.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1"
+  },
+  "devDependencies": {
+    "buble-loader": "^0.4.0",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  }
+}
